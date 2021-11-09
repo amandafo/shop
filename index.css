@@ -139,17 +139,20 @@ h1{
 }
 
 .buy-btn{
+    text-decoration: none;
+    color: white;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
     font-size: 25px;
     width: 300px;
     height: 75px;
-    background-color: #CE1141;
+    background: #CE1141;
     border: none;
     border-radius:50px;
 }
 
 .buy-btn:hover{
-    transition: all 0.3s eae 0s;
-    background-color: #c9395d;
+    transition: all 0.3s ease 0s;
+    background: #c9395d;
+    color: white;
 }
